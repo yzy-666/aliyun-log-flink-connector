@@ -3,7 +3,7 @@
 Flink log connector是阿里云日志服务提供的，用于对接flink的工具，包括两部分，消费者(Consumer)和生产者(Producer)。
 
 消费者用于从日志服务中读取数据，支持exactly once语义，支持shard负载均衡.
-生产者用于将数据写入日志服务，使用connector时，需要在项目中添加maven依赖：
+生产者用于将数据写入日志服务，使用connector时，需要在项目中添加maxsdcaven依赖：
 ```
 <dependency>
     <groupId>com.aliyun.openservices</groupId>
